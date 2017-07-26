@@ -1,14 +1,11 @@
 @charset "utf-8";
-@r:100rem;
-@media only screen and (min-width: 300px) and (max-width: 460px) {
-    html{font-size: 425%;}
-}
+@r:10rem;
 * {
   margin: 0;
   padding: 0;
 }
 html {
-  font-size: 625%;
+  font-size: 62.5%;
 }
 body {
   width: 100%;
@@ -52,7 +49,7 @@ main {
   top: 0.4rem;
   left: 0;
   right: 0;
-  margin-bottom: 200px;
+ 
 }
 main .user_info {
   width: 100%;
@@ -65,10 +62,9 @@ main img {
   padding-top: 0.6rem;
   padding-right: 0.25rem;
   float: left;
-  width: 75/@r;
-  height: 75/@r;
-  padding-bottom: 50/@r;
-  
+  width: 0.75rem;
+  height: 0.75rem;
+  padding-bottom: 0.5rem;
 }
 main .user_name .name {
   font-size: 0.2rem;
@@ -87,11 +83,11 @@ main .user_tittle {
   font-size: 0.20rem;
   font-weight: bold;
   color: #333333;
-  margin-left: 0.3rem;
-  padding-left: 0.26rem;
+  margin-left: 0.1rem;
+  padding-left: 0.16rem;
   border-left: 3px solid #5fc0cd;
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
 }
 main .user_form {
   border-top: 1px solid #e1e5e7;
@@ -99,10 +95,13 @@ main .user_form {
 main .top_line {
   border-top: 1px solid #e1e5e7;
 }
+main ul{
+    
+}
 main li {
   display: inline-block;
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
   font-size: 0.15rem;
   margin-left: 0.3rem;
 }
@@ -111,12 +110,27 @@ main .red {
 }
 .stress {
   background: url(img/bag-1.png) no-repeat left center;
-  padding-left: 0.35rem;
+  padding-left: 0.28rem;
+}
+.notes{
+    font-size: 0.12rem;
+    line-height: 0.22rem;
+    margin-top: 0.05rem;
+  margin-bottom: 0.05rem;
+  width: 50%;
+}
+.left_margin{
+    margin-left: 0rem;
 }
 main .right_border {
   border-right: 1px solid #e1e5e7;
-  padding-right: 0.2rem;
+  padding-right: 0.1rem;
   color: #999999;
+}
+main .right_border_1 {
+  border-right: 1px solid #e1e5e7;
+  padding-right: 0.1rem;
+  color: #333;
 }
 main .user_form ul {
   font-size: 0.32rem;
@@ -132,7 +146,7 @@ footer {
   right: 0;
   z-index: 100;
   background: #fff;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 footer div {
   width: 50%;
